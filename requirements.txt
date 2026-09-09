@@ -1,0 +1,3 @@
+# This project does not require any third-party dependencies!
+# It runs purely using Python's standard library (tkinter, urllib.request, threading, and json).
+# Simply run "python main.py" to start.
