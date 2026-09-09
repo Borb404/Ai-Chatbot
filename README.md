@@ -76,15 +76,14 @@ flowchart TD
 
 ---
 
-## 📁 File Descriptions & Team Structure
+## 📁 File Descriptions 
 
-| File | Module Name | Primary Responsibility | Team Member Assignment |
+| File | Module Name | Primary Responsibility |
 | :--- | :--- | :--- | :--- |
-| **`main.py`** | **Controller** | Entry point; handles app orchestration, thread safety, and triggers callbacks. | **Member 1 (Lead/Integration)** |
-| **`gui.py`** | **View** | Tkinter widgets construction, color palettes, event bindings, and text renders. | **Member 2 (GUI Designer)** |
-| **`ai_chat.py`** | **Model (AI)** | Directly queries the Gemini REST API using Python's standard `urllib.request`. | **Member 3 (API Specialist)** |
-| **`history.py`** | **Model (File I/O)**| Text formatting, generating timestamp-based filenames, and file writing. | **Collaborative / Shared** |
-
+| **`main.py`** | **Controller** | Entry point; handles app orchestration, thread safety, and triggers callbacks. | 
+| **`gui.py`** | **View** | Tkinter widgets construction, color palettes, event bindings, and text renders. | 
+| **`ai_chat.py`** | **Model (AI)** | Directly queries the Gemini REST API using Python's standard `urllib.request`. | 
+| **`history.py`** | **Model (File I/O)**| Text formatting, generating timestamp-based filenames, and file writing. | 
 ---
 
 ## 🚀 Installation & Usage Guide
