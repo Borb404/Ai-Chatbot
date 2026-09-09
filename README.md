@@ -74,16 +74,7 @@ flowchart TD
     ExitApp -- Yes --> ActionExit([21. Destroy Tkinter main window])
 ```
 
----
 
-## 📁 File Descriptions 
-
-| File | Module Name | Primary Responsibility |
-| :--- | :--- | :--- | :--- |
-| **`main.py`** | **Controller** | Entry point; handles app orchestration, thread safety, and triggers callbacks. | 
-| **`gui.py`** | **View** | Tkinter widgets construction, color palettes, event bindings, and text renders. | 
-| **`ai_chat.py`** | **Model (AI)** | Directly queries the Gemini REST API using Python's standard `urllib.request`. | 
-| **`history.py`** | **Model (File I/O)**| Text formatting, generating timestamp-based filenames, and file writing. | 
 ---
 
 ## 🚀 Installation & Usage Guide
